@@ -51,7 +51,7 @@ public class dosenMain16 {
             if (dosen.nidn.equals(nidnCariPendidikan)) {
                 System.out.print("Masukkan jenjang pendidikan baru: ");
                 String jenjangBaru = scanner.nextLine();
-                dosen.ubahJenjangPendidikan(jenjangBaru);
+                dosen.ubahPendidikan(jenjangBaru);
                 System.out.println("Jenjang pendidikan berhasil diubah.");
                 break;
             }
